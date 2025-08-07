@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;     
+    font-family: 'Arial', sans-serif;
+    }
+.logo {
+    height: 80px;
+    width: 150px;
+    animation: logo 2s ease-in-out infinite;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+@keyframes logo {
+    0% {
+        transform: scale(1)
+    }
+
+    50% {
+        transform: scale(1.2)
+    }
+
+    100% {
+        transform: scale(1)
+    }
+}
+
+.navbar {
+    background-color: #E0F7FA;
+}
+
+.nav-link {
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.home {
+    color: #15927d;
+    padding-bottom: 10px;
+    border-bottom: 2px solid green;
+}
+
+.nav-link:hover {
+    color: #15927d;
+    border-bottom: 2px solid green;
+    transition: transform 0.3s ease;
+    transform: scale(1.10);
+}
+
+.nav-item {
+    margin: 0 10px;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+}
+
+.dropdown-menu{
+    background-color: #E0F7FA;
+    border: 1px solid #15927d;
+}
+
+.dropdown-item:hover {
+    font-weight: bold;
+    color: #15927d;
+}
+
+.con {
+    background-image: url(./img/logo.png);
+    background-color: #E0F7FA;
+}
+.carousel{
+    height: 400px;
+    width: 70%;
+    margin: 20px auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    border-radius: 50px;
+}
+
+
+.pop:hover {
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.head{
+    font-weight: bold;
+    color: rgb(0, 60, 255);
+    text-align: center;
+}
+
+.footer {
+    background-color: #E0F7FA;
+}
+
+.f-head {
+    font-weight: bold;
+    color: rgb(0, 60, 255);
+}
+.footer a {
+    color: #000;
+    text-decoration: none;
+
+}
+.q-link:hover {
+    color: #15927d;
+    padding-bottom: 10px;
+    border-bottom: 2px solid green;
+}
+
+.f-pop:hover {
+    transition: transform 0.3s ease;
+    transform: scale(1.5);
+    cursor: pointer;  
+}
+
+.title{
+    font-family: 'Times New Roman', Times, serif;
+}
+.title:hover {
+    color: #15927d;
+    cursor: pointer;
+    font-weight: bold;    
+}
